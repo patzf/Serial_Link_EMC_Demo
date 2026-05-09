@@ -1,0 +1,70 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M315 250L380 135L470 240Z" fill="#D4D4D8"/>
+  <path d="M709 250L644 135L554 240Z" fill="#D4D4D8"/>
+
+  <!-- Inner ears -->
+  <path d="M360 220L390 170L430 225Z" fill="#FBCFE8"/>
+  <path d="M664 220L634 170L594 225Z" fill="#FBCFE8"/>
+
+  <!-- Cat head -->
+  <path d="M310 250C310 175 385 120 512 120C639 120 714 175 714 250V410H310V250Z"
+        fill="white" stroke="#082F66" stroke-width="12"/>
+
+  <!-- Gray patches -->
+  <path d="M310 250C310 210 330 175 365 150C425 160 455 205 460 250H310Z"
+        fill="#D4D4D8"/>
+  <path d="M714 250C714 210 694 175 659 150C599 160 569 205 564 250H714Z"
+        fill="#D4D4D8"/>
+
+  <!-- Eyes -->
+  <circle cx="438" cy="285" r="24" fill="#082F66"/>
+  <circle cx="586" cy="285" r="24" fill="#082F66"/>
+  <circle cx="446" cy="277" r="7" fill="white"/>
+  <circle cx="594" cy="277" r="7" fill="white"/>
+
+  <!-- Nose -->
+  <ellipse cx="512" cy="330" rx="16" ry="12" fill="#082F66"/>
+
+  <!-- Mouth -->
+  <path d="M485 348C490 368 505 378 512 378C519 378 534 368 539 348"
+        stroke="#082F66" stroke-width="8" stroke-linecap="round" fill="none"/>
+
+  <!-- Whiskers -->
+  <g stroke="#082F66" stroke-width="7" stroke-linecap="round">
+    <path d="M290 305H215"/>
+    <path d="M300 340H230"/>
+    <path d="M734 305H809"/>
+    <path d="M724 340H794"/>
+  </g>
+
+  <!-- Sign -->
+  <rect x="250" y="430" width="524" height="320" rx="28"
+        fill="white" stroke="#082F66" stroke-width="12"/>
+
+  <!-- Paws -->
+  <circle cx="335" cy="450" r="38" fill="white" stroke="#082F66" stroke-width="10"/>
+  <circle cx="689" cy="450" r="38" fill="white" stroke="#082F66" stroke-width="10"/>
+
+  <!-- EMC waveform -->
+  <path d="M350 515H445C455 515 465 490 482 490C499 490 507 545 525 545C543 545 551 490 568 490C585 490 595 515 605 515H690"
+        stroke="#3B82F6" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- EMC text -->
+  <text x="512" y="670"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="150"
+        font-weight="800"
+        fill="#082F66"
+        letter-spacing="4">
+    EMC
+  </text>
+
+  <!-- Feet -->
+  <ellipse cx="415" cy="785" rx="42" ry="24" fill="white" stroke="#082F66" stroke-width="10"/>
+  <ellipse cx="609" cy="785" rx="42" ry="24" fill="white" stroke="#082F66" stroke-width="10"/>
+
+  <!-- Tail -->
+  <path d="M760 690C835 690 850 790 780 810"
+        stroke="#082F66" stroke-width="14" stroke-linecap="round" fill="none"/>
+</svg>
