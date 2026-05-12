@@ -1,0 +1,72 @@
+{
+  "jobs": [
+    {
+      "description": "",
+      "id": "58d1198b-7658-4ae9-89d1-b81ae2c6167a",
+      "settings": {
+        "anti_alias": true,
+        "bg_style": "default",
+        "description": "",
+        "floor": false,
+        "format": "png",
+        "height": 1080,
+        "light_bottom_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "light_camera_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "light_side_elevation": 60,
+        "light_side_intensity": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "light_top_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "output_filename": "main",
+        "pan_x": 0.0,
+        "pan_y": 0.0,
+        "pan_z": 0.0,
+        "perspective": false,
+        "pivot_x": 0.0,
+        "pivot_y": 0.0,
+        "pivot_z": 0.0,
+        "post_process": false,
+        "preset": "",
+        "procedural_textures": false,
+        "quality": "basic",
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "side": "top",
+        "use_board_stackup_colors": true,
+        "variant": "",
+        "width": 1920,
+        "zoom": 1.0
+      },
+      "type": "pcb_render"
+    }
+  ],
+  "meta": {
+    "version": 1
+  },
+  "outputs": [
+    {
+      "description": "",
+      "id": "c9655d04-05b2-4d61-b2b7-0acaf4ab39f2",
+      "only": [],
+      "settings": {
+        "output_path": "./pcb_rendering"
+      },
+      "type": "folder"
+    }
+  ]
+}
