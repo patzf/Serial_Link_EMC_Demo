@@ -188,6 +188,231 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x03_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_Socket"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x03_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.032)
+					(mid -0.5058 2.54)
+					(end 0 3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_ARM_SWD_TagConnect_TC2030-NL"
 			(exclude_from_sim no)
 			(in_bom no)
@@ -6658,6 +6883,16 @@
 		)
 		(uuid "fab9ff64-2ac3-4846-8eea-b028d2db70dc")
 	)
+	(text "https://www.icotek.com/en/products/emc-cable-shield-clamps/pcb"
+		(exclude_from_sim no)
+		(at 364.744 5.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fc864f56-a80b-459c-8d4f-8b48364e6030")
+	)
 	(text "just to easy layout without braking the GND plane"
 		(exclude_from_sim no)
 		(at 200.152 221.996 0)
@@ -6669,16 +6904,16 @@
 		(uuid "ff0b105a-16ac-43b0-8a40-5d782ae92be5")
 	)
 	(junction
+		(at 327.66 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "066271a0-7658-4d96-88b7-c463ca228d92")
+	)
+	(junction
 		(at 327.66 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12464bd6-9f9c-4a4e-a1c4-d44759702722")
-	)
-	(junction
-		(at 327.66 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "15fa3bd1-e4c3-46a9-b463-da32eec81a83")
 	)
 	(junction
 		(at 57.15 29.21)
@@ -6733,12 +6968,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e5900db-1fe4-4121-88f2-d368c52270ba")
-	)
-	(junction
-		(at 327.66 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "68774a5d-ffac-41ac-9e49-28b9eee97871")
 	)
 	(junction
 		(at 297.18 175.26)
@@ -6805,6 +7034,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d739e692-b311-4a1f-bd7b-57708bbff717")
+	)
+	(junction
+		(at 327.66 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db59ce51-24cc-4b03-8570-6f14c802e473")
 	)
 	(junction
 		(at 40.64 205.74)
@@ -6904,7 +7139,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 60.96) (xy 356.87 73.66)
+			(xy 351.79 60.96) (xy 351.79 73.66)
 		)
 		(stroke
 			(width 0)
@@ -7044,7 +7279,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 58.42) (xy 356.87 58.42)
+			(xy 359.41 58.42) (xy 351.79 58.42)
 		)
 		(stroke
 			(width 0)
@@ -7491,6 +7726,26 @@
 			(type default)
 		)
 		(uuid "47510a1b-f5c6-46bc-825e-5e4508b2af88")
+	)
+	(wire
+		(pts
+			(xy 359.41 63.5) (xy 358.14 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a2bb95a-e2b9-4773-957f-bedc9a24ab91")
+	)
+	(wire
+		(pts
+			(xy 358.14 63.5) (xy 358.14 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a8e1f24-e7bf-4852-a10b-e4b350817466")
 	)
 	(wire
 		(pts
@@ -8024,7 +8279,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 60.96) (xy 359.41 60.96)
+			(xy 351.79 60.96) (xy 359.41 60.96)
 		)
 		(stroke
 			(width 0)
@@ -8264,7 +8519,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 46.99) (xy 356.87 58.42)
+			(xy 351.79 46.99) (xy 351.79 58.42)
 		)
 		(stroke
 			(width 0)
@@ -8514,7 +8769,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 46.99) (xy 356.87 46.99)
+			(xy 327.66 46.99) (xy 351.79 46.99)
 		)
 		(stroke
 			(width 0)
@@ -8544,7 +8799,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 73.66) (xy 356.87 73.66)
+			(xy 327.66 73.66) (xy 351.79 73.66)
 		)
 		(stroke
 			(width 0)
@@ -12713,98 +12968,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 364.49 60.96 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "364002f6-d54c-4550-b51e-30978b415d12")
-		(property "Reference" "J6"
-			(at 364.49 63.754 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 363.855 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.5_1x02_P3.50mm_Horizontal"
-			(at 364.49 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 364.49 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 364.49 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 364.49 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "97a06218-69ba-48bc-80d5-41cd293500a4")
-		)
-		(pin "1"
-			(uuid "4b19a9f6-8be6-44b9-ac1f-46b52eb7eba0")
-		)
-		(instances
-			(project "IFboard"
-				(path "/5819cdb4-45b5-43a2-a4e4-9ec02e71e355"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 40.64 29.21 270)
 		(unit 1)
@@ -13956,6 +14119,101 @@
 			(project "IFboard"
 				(path "/5819cdb4-45b5-43a2-a4e4-9ec02e71e355"
 					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Socket")
+		(at 364.49 60.96 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "59948580-5e63-40a1-bf1d-b47afbb3a64f")
+		(property "Reference" "J6"
+			(at 363.855 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Socket"
+			(at 368.3 51.816 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MC_1,5_3-G-3.5_1x03_P3.50mm_Horizontal"
+			(at 364.49 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 364.49 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 364.49 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 364.49 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "1009a3fb-8a12-4907-9a06-3227215e431b")
+		)
+		(pin "2"
+			(uuid "58d1ecfe-e7f1-46ed-8d4a-bfdde76c4a5d")
+		)
+		(pin "1"
+			(uuid "74dfb9c9-81be-4333-bc18-d9769d15c887")
+		)
+		(instances
+			(project "IFboard"
+				(path "/5819cdb4-45b5-43a2-a4e4-9ec02e71e355"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -16797,6 +17055,83 @@
 			(project "IFboard"
 				(path "/5819cdb4-45b5-43a2-a4e4-9ec02e71e355"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 358.14 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "92bd902f-93d0-4204-b1e7-646b7ab02f53")
+		(property "Reference" "#PWR068"
+			(at 358.14 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 358.394 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 358.14 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 358.14 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 358.14 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7067ad82-2f2d-422c-a247-b2ac876a897a")
+		)
+		(instances
+			(project "IFboard"
+				(path "/5819cdb4-45b5-43a2-a4e4-9ec02e71e355"
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
