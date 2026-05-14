@@ -7255,7 +7255,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 147.32) (xy 224.79 149.86)
+			(xy 231.14 154.94) (xy 231.14 157.48)
 		)
 		(stroke
 			(width 0)
@@ -7975,7 +7975,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 157.48) (xy 210.82 177.8)
+			(xy 217.17 165.1) (xy 217.17 185.42)
 		)
 		(stroke
 			(width 0)
@@ -8055,7 +8055,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 137.16) (xy 210.82 139.7)
+			(xy 217.17 144.78) (xy 217.17 147.32)
 		)
 		(stroke
 			(width 0)
@@ -8675,7 +8675,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 137.16) (xy 224.79 139.7)
+			(xy 231.14 144.78) (xy 231.14 147.32)
 		)
 		(stroke
 			(width 0)
@@ -8725,7 +8725,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 147.32) (xy 210.82 149.86)
+			(xy 217.17 154.94) (xy 217.17 157.48)
 		)
 		(stroke
 			(width 0)
@@ -9115,7 +9115,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 157.48) (xy 224.79 177.8)
+			(xy 231.14 165.1) (xy 231.14 185.42)
 		)
 		(stroke
 			(width 0)
@@ -10371,7 +10371,7 @@
 		)
 		(uuid "00484d47-329a-4fc6-b335-6d38840c5be6")
 	)
-	(label "CAN_TX_LED"
+	(label "USART1_TX_LED"
 		(at 180.34 190.5 180)
 		(effects
 			(font
@@ -10401,7 +10401,7 @@
 		)
 		(uuid "089c87aa-f4c2-454e-a193-4c1957f37421")
 	)
-	(label "USART1_TX_LED"
+	(label "CAN_TX_LED"
 		(at 182.88 241.3 180)
 		(effects
 			(font
@@ -10781,7 +10781,7 @@
 		)
 		(uuid "bb58162e-c1d6-41de-9e81-a305edb1fb05")
 	)
-	(label "CAN_RX_LED"
+	(label "USART1_RX_LED"
 		(at 177.8 251.46 180)
 		(effects
 			(font
@@ -10791,7 +10791,7 @@
 		)
 		(uuid "c258deb7-f268-4d21-afae-e35a8c040594")
 	)
-	(label "USART1_RX_LED"
+	(label "CAN_RX_LED"
 		(at 182.88 238.76 180)
 		(effects
 			(font
@@ -10882,7 +10882,7 @@
 		(uuid "e15771dc-10a8-4f21-aaab-747915f3d8b2")
 	)
 	(label "USART1_RX_LED"
-		(at 224.79 177.8 90)
+		(at 231.14 185.42 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10922,7 +10922,7 @@
 		(uuid "f9fe5505-e6bc-4ef8-8d2f-880e7da9d877")
 	)
 	(label "USART1_TX_LED"
-		(at 210.82 177.8 90)
+		(at 217.17 185.42 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11454,7 +11454,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 224.79 137.16 0)
+		(at 231.14 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11464,7 +11464,7 @@
 		(dnp no)
 		(uuid "0b835675-93c0-4bc5-bd0c-e05850c0f2d1")
 		(property "Reference" "#PWR047"
-			(at 224.79 140.97 0)
+			(at 231.14 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11475,7 +11475,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 224.536 133.096 0)
+			(at 230.886 140.716 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11485,7 +11485,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 137.16 0)
+			(at 231.14 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11496,7 +11496,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 137.16 0)
+			(at 231.14 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11507,7 +11507,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 224.79 137.16 0)
+			(at 231.14 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12667,7 +12667,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 210.82 143.51 180)
+		(at 217.17 151.13 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12676,8 +12676,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "31d08fc8-f1f6-4565-b8c6-d1fed68ed8e7")
-		(property "Reference" "R12"
-			(at 212.852 142.494 0)
+		(property "Reference" "R10"
+			(at 219.202 150.114 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12688,7 +12688,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 212.852 145.034 0)
+			(at 219.202 152.654 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12699,7 +12699,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 212.598 143.51 90)
+			(at 218.948 151.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12710,7 +12710,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 143.51 0)
+			(at 217.17 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12721,7 +12721,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 210.82 143.51 0)
+			(at 217.17 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12732,7 +12732,7 @@
 			)
 		)
 		(property "LCSC Part #" "C21190"
-			(at 210.82 143.51 0)
+			(at 217.17 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12751,7 +12751,7 @@
 		(instances
 			(project "IFboard"
 				(path "/5819cdb4-45b5-43a2-a4e4-9ec02e71e355"
-					(reference "R12")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -13980,7 +13980,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 210.82 153.67 90)
+		(at 217.17 161.29 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13989,8 +13989,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "570287bf-a928-4c88-b265-31ce9904cadb")
-		(property "Reference" "D6"
-			(at 211.328 150.114 90)
+		(property "Reference" "D4"
+			(at 217.678 157.734 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14001,7 +14001,7 @@
 			)
 		)
 		(property "Value" "KT-0805G"
-			(at 214.884 150.368 0)
+			(at 221.234 157.988 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14012,7 +14012,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 210.82 153.67 0)
+			(at 217.17 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14023,7 +14023,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8639582106218377216-C2297.pdf?response-content-disposition=attachment%3B%20filename%3DC2297.pdf%3B%20filename%2A%3DUTF-8%27%27C2297.pdf&x-oss-date=20260430T181955Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nAJdDt2ulmx7qOYx7nvUETTvkUp5GeiTz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qflOjB104J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWmppUcFvLnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkIFk8XFaKWD5sagAGBa80jgAoST4smJzv7QpTiHa0rWO%2F7zUhLB5XyPIdZH6DqaQMsukgStQeVpmE0tMizMnuWk4Zm2QFWNfhSkxJJbohp65RrZDXl6ByuVNzRN6jNisbBynGgYHvErAD4w4FA6b54qyE0%2B1PM5CmkkfGu5w1JrvNRnqFn6j0Jc54bpCAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZunjY76Gpxea8VYAFBv8HT5k%2F20260430%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=b907eec4078b49bc29c8479dcceab9bea675993a54126929bb65fe48d2054a03"
-			(at 210.82 153.67 0)
+			(at 217.17 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14034,7 +14034,7 @@
 			)
 		)
 		(property "Description" "LED green"
-			(at 208.026 154.686 0)
+			(at 214.376 162.306 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14044,7 +14044,7 @@
 			)
 		)
 		(property "LCSC Part #" "C2297"
-			(at 210.82 153.67 90)
+			(at 217.17 161.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14063,7 +14063,7 @@
 		(instances
 			(project "IFboard"
 				(path "/5819cdb4-45b5-43a2-a4e4-9ec02e71e355"
-					(reference "D6")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -14196,7 +14196,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MC_1,5_3-G-3.5_1x03_P3.50mm_Horizontal"
+		(property "Footprint" "PZL:1881451"
 			(at 364.49 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -14436,7 +14436,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d8de477-229d-41f6-b7c6-e66801fc3231")
-		(property "Reference" "D5"
+		(property "Reference" "D8"
 			(at 396.748 55.372 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14510,7 +14510,7 @@
 		(instances
 			(project "IFboard"
 				(path "/5819cdb4-45b5-43a2-a4e4-9ec02e71e355"
-					(reference "D5")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -16611,7 +16611,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "883bfde3-ad23-4f09-9d02-942a5e628ce4")
-		(property "Reference" "R10"
+		(property "Reference" "R12"
 			(at 386.842 47.244 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16686,7 +16686,7 @@
 		(instances
 			(project "IFboard"
 				(path "/5819cdb4-45b5-43a2-a4e4-9ec02e71e355"
-					(reference "R10")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -16784,7 +16784,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 224.79 143.51 180)
+		(at 231.14 151.13 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16793,8 +16793,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8cf36336-8d06-455c-b51e-b73a59c3e7b7")
-		(property "Reference" "R13"
-			(at 226.822 142.494 0)
+		(property "Reference" "R11"
+			(at 233.172 150.114 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16805,7 +16805,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 226.822 145.034 0)
+			(at 233.172 152.654 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16816,7 +16816,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 226.568 143.51 90)
+			(at 232.918 151.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16827,7 +16827,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 143.51 0)
+			(at 231.14 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16838,7 +16838,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 224.79 143.51 0)
+			(at 231.14 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16849,7 +16849,7 @@
 			)
 		)
 		(property "LCSC Part #" "C21190"
-			(at 224.79 143.51 0)
+			(at 231.14 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16868,7 +16868,7 @@
 		(instances
 			(project "IFboard"
 				(path "/5819cdb4-45b5-43a2-a4e4-9ec02e71e355"
-					(reference "R13")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -17113,7 +17113,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "927ad826-2afe-4c63-b1e4-6f63de304e1c")
-		(property "Reference" "D4"
+		(property "Reference" "D6"
 			(at 385.318 54.864 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17187,7 +17187,7 @@
 		(instances
 			(project "IFboard"
 				(path "/5819cdb4-45b5-43a2-a4e4-9ec02e71e355"
-					(reference "D4")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -19735,7 +19735,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 210.82 137.16 0)
+		(at 217.17 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19745,7 +19745,7 @@
 		(dnp no)
 		(uuid "b9dffaba-c41a-470e-9fdd-cc27b4150471")
 		(property "Reference" "#PWR045"
-			(at 210.82 140.97 0)
+			(at 217.17 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19756,7 +19756,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 210.566 133.096 0)
+			(at 216.916 140.716 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19766,7 +19766,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 137.16 0)
+			(at 217.17 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19777,7 +19777,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 137.16 0)
+			(at 217.17 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19788,7 +19788,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 210.82 137.16 0)
+			(at 217.17 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20982,7 +20982,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 224.79 153.67 90)
+		(at 231.14 161.29 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20991,8 +20991,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf144719-0e73-4a87-93a8-f2136705e87b")
-		(property "Reference" "D8"
-			(at 225.298 150.622 90)
+		(property "Reference" "D5"
+			(at 231.648 158.242 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21003,7 +21003,7 @@
 			)
 		)
 		(property "Value" "KT-0805Y"
-			(at 229.108 150.368 0)
+			(at 235.458 157.988 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21014,7 +21014,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 224.79 153.67 0)
+			(at 231.14 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21025,7 +21025,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579709195039801344"
-			(at 224.79 153.67 0)
+			(at 231.14 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21036,7 +21036,7 @@
 			)
 		)
 		(property "Description" "LED yellow"
-			(at 221.996 154.432 0)
+			(at 228.346 162.052 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21046,7 +21046,7 @@
 			)
 		)
 		(property "LCSC Part #" "C2296"
-			(at 224.79 153.67 90)
+			(at 231.14 161.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21065,7 +21065,7 @@
 		(instances
 			(project "IFboard"
 				(path "/5819cdb4-45b5-43a2-a4e4-9ec02e71e355"
-					(reference "D8")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -22029,7 +22029,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e0b44d2d-f0ff-430f-8cbb-8dd6538ae9a9")
-		(property "Reference" "R11"
+		(property "Reference" "R13"
 			(at 398.272 47.244 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22104,7 +22104,7 @@
 		(instances
 			(project "IFboard"
 				(path "/5819cdb4-45b5-43a2-a4e4-9ec02e71e355"
-					(reference "R11")
+					(reference "R13")
 					(unit 1)
 				)
 			)
