@@ -722,7 +722,7 @@
         "uuid": "5819cdb4-45b5-43a2-a4e4-9ec02e71e355"
       }
     ],
-    "used_designators": "R24-25,C24,#PWR72,L1-2",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -731,7 +731,10 @@
       "IFboard"
     ]
   ],
-  "text_variables": {},
+  "text_variables": {
+    "PRJNAME": "Serial Link EMC Demo",
+    "VERSION": "V1.0"
+  },
   "tuning_profiles": {
     "meta": {
       "version": 0
