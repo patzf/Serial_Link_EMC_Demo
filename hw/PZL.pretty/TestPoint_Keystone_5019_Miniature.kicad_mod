@@ -1,0 +1,194 @@
+(footprint "TestPoint_Keystone_5019_Miniature"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Keystone SMT Miniature Test Point 5019, http://www.keyelco.com/product-pdf.cfm?p=1357")
+	(tags "Test Point")
+	(property "Reference" "REF**"
+		(at 0 -2.25 0)
+		(layer "F.SilkS")
+		(uuid "5229b6a0-3da1-4681-a756-bb76352e9285")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TestPoint_Keystone_5019_Miniature"
+		(at 0 2.25 0)
+		(layer "F.Fab")
+		(uuid "0eb9ef8a-68b9-4d25-850d-0810427c20c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.02 -2.81 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea1059fc-8f8e-45bb-831a-679f94bd2e6a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.02 -2.81 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "59d53e28-3a6b-4c18-afca-23ddc766b357")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -2.1 -1.2)
+		(end 2.1 1.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a3f7eb34-640a-4753-b153-1d43dcdafde0")
+	)
+	(fp_line
+		(start -2.35 -1.45)
+		(end 2.35 -1.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "97ab1b88-7c25-4f93-a8bb-d732e981632a")
+	)
+	(fp_line
+		(start -2.35 1.45)
+		(end -2.35 -1.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b21788af-dbe5-4d82-964d-0ba0bc2ed09b")
+	)
+	(fp_line
+		(start 2.35 -1.45)
+		(end 2.35 1.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d161ae4b-a372-4d3e-be61-eb0c64d556e6")
+	)
+	(fp_line
+		(start 2.35 1.45)
+		(end -2.35 1.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "53b7bc56-0635-42d8-9bff-fbde64f1a110")
+	)
+	(fp_rect
+		(start -1.9 -0.5)
+		(end 1.9 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b1d2cdc5-3c23-4aa5-b766-2af4cfc9f1f9")
+	)
+	(fp_rect
+		(start -1.25 -1)
+		(end 0 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "fab029e7-0f57-4d85-866d-b714ff4040a0")
+	)
+	(fp_rect
+		(start -1.25 0.5)
+		(end 0 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "90af0642-aa6a-4a33-8196-70ad04bbea8a")
+	)
+	(fp_rect
+		(start 0 -1)
+		(end 1.25 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "75757449-1cee-4215-b169-b6f828c37a7f")
+	)
+	(fp_rect
+		(start 0 0.5)
+		(end 1.25 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e8a8cb70-3969-4adc-9279-e04a19c543d3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "5c174b34-f639-4816-9471-927223e60747")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.135)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 3.8 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "de74dc00-bb77-4200-b86d-820736726373")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/5019.STEP"
+		(offset
+			(xyz 0 0 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
