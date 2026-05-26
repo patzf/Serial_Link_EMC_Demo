@@ -658,6 +658,102 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Created Date",
+          "name": "Created Date",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer URL",
+          "name": "Manufacturer URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mounting Technology",
+          "name": "Mounting Technology",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Number of windings",
+          "name": "Number of windings",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Critical Parameter",
+          "name": "Critical Parameter",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Number",
+          "name": "Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RDC max. (ohm)",
+          "name": "RDC max. (ohm)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Series",
+          "name": "Series",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Size",
+          "name": "Size",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VR (V)",
+          "name": "VR (V)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Winding Style",
+          "name": "Winding Style",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Zmax (ohm)",
+          "name": "Zmax (ohm)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IR (mA)",
+          "name": "IR (mA)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Application",
+          "name": "Application",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L (uH)",
+          "name": "L (uH)",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -722,7 +818,7 @@
         "uuid": "5819cdb4-45b5-43a2-a4e4-9ec02e71e355"
       }
     ],
-    "used_designators": "C25,JP3-4",
+    "used_designators": "C25,JP3-4,TP10-11,J8-10",
     "variants": []
   },
   "sheets": [
