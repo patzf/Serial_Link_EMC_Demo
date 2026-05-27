@@ -562,174 +562,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic_MountingPin:Conn_01x01_MountingPin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01_MountingPin"
-				(at 1.27 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connectable mounting pin connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x01_MountingPin_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -2.032) (xy 1.016 -2.032)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "Mounting"
-					(at 0 -1.651 0)
-					(effects
-						(font
-							(size 0.381 0.381)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 3.048)
-					(name "MountPin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2336,6 +2168,169 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PZ:IcoTec_36650.2"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J7"
+				(at 2.54 0.9145 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "IcoTec_36650.2"
+				(at 2.54 -1.6255 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PZ:icotek 36650.2 PCB-4-V-6,8SKL 3-6"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.icotek.com/Produkte/PG08%20EMV%20Abschirmung/EMV%20Schirmklammern%20f%C3%BCr%20Leiterplatten/PCB-SKL/Datenbl%C3%A4tter/36650.2_PCB-4-V-6%2C8_SKL-3-6.PDF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "EMC Shield Clamps with Soldering Foot, PCB-4-V-6,8/SKL 3-6"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part #" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "EMC Shield Clamp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "IcoTec_36650.2_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -2.032) (xy 1.016 -2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -1.651 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5125,6 +5120,17 @@
 					)
 				)
 			)
+			(property "LCSC Part #" "C2894897"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "usb universal serial bus type-C USB2.0"
 				(at 0 0 0)
 				(show_name no)
@@ -5776,6 +5782,173 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PZ:XC6206P332MR-G"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U2"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "XC6206P332MR-G"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+				(at 0 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.torexsemi.com/file/xc6206/XC6206.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part #" "C5446"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Torex LDO Voltage Regulator Fixed Positive"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23?3*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "XC6206P332MR-G_0_1"
+				(rectangle
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "XC6206P332MR-G_1_1"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:AMS1117-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5872,163 +6045,6 @@
 				)
 			)
 			(symbol "AMS1117-3.3_1_1"
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Regulator_Linear:XC6206PxxxMR"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "XC6206PxxxMR"
-				(at 0 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-				(at 0 5.715 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.torexsemi.com/file/xc6206/XC6206.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Torex LDO Voltage Regulator Fixed Positive"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23?3*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "XC6206PxxxMR_0_1"
-				(rectangle
-					(start -5.08 1.905)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "XC6206PxxxMR_1_1"
 				(pin power_in line
 					(at 0 -7.62 90)
 					(length 2.54)
@@ -7780,16 +7796,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "MC_1,5_3-G-3.5_1x03_P3.50mm"
-		(exclude_from_sim no)
-		(at 391.668 -9.906 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "08cc4203-7796-4b42-8845-4884eb406a2a")
-	)
 	(text "shutdown = high -> CANH=CANL=high-Z to GND"
 		(exclude_from_sim no)
 		(at 242.57 75.692 0)
@@ -7875,16 +7881,6 @@
 		)
 		(uuid "2ae0e3a6-b764-43f4-9065-03c45e3061b6")
 	)
-	(text "XC6206P332MR-G"
-		(exclude_from_sim no)
-		(at 122.936 36.576 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2c96a3d0-e419-474f-95df-eeba6d7839a2")
-	)
 	(text "internal PU(25k-55k)"
 		(exclude_from_sim no)
 		(at 38.1 231.648 0)
@@ -7936,13 +7932,14 @@
 		)
 		(uuid "58ca87f8-cfc4-40b8-8501-73d55177613a")
 	)
-	(text "FK-MC 0,5/ 3-ST-2,5 "
+	(text "J6 mates with FK-MC 0,5/ 3-ST-2,5\n0,14 mm² ... 0,5 mm² (20-26AWG)\nAbisolierlänge: 8mm"
 		(exclude_from_sim no)
-		(at 387.096 -7.112 0)
+		(at 331.216 42.672 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "6176b52c-19e7-4c8d-b9c0-1872d0b302d3")
 	)
@@ -7967,17 +7964,6 @@
 			(justify left)
 		)
 		(uuid "6935965d-8d6c-4a8b-be96-018fd8103cbf")
-	)
-	(text "mating (for 0,2-1,5 mm2)\nMC  1,5/3-ST-3,5\nFMC 1,5/3-ST-3,5"
-		(exclude_from_sim no)
-		(at 385.064 -13.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6efdfa51-6c5f-45fe-8341-b2016cf594dc")
 	)
 	(text "https://electronics.stackexchange.com/questions/512653/can-split-termination-capacitor-calculation"
 		(exclude_from_sim no)
@@ -8040,6 +8026,17 @@
 			(justify left)
 		)
 		(uuid "951262d1-da12-47a2-8638-4e7fe6346217")
+	)
+	(text "Schirmdurchmesser: 3-6mm"
+		(exclude_from_sim no)
+		(at 179.578 112.776 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "97565505-2418-423a-9ba0-851d242e6e76")
 	)
 	(text "Twisted Paired Cable - 24 AWG"
 		(exclude_from_sim no)
@@ -8620,6 +8617,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 74.93) (xy 186.69 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0504bf65-f3b8-4378-9945-04b0a30905a3")
+	)
+	(wire
+		(pts
 			(xy 251.46 190.5) (xy 256.54 190.5)
 		)
 		(stroke
@@ -8747,6 +8754,16 @@
 			(type default)
 		)
 		(uuid "0fb9eadb-2440-4db5-ad24-ffb3b3c35365")
+	)
+	(wire
+		(pts
+			(xy 186.69 107.95) (xy 186.69 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ff4d2f1-390a-4ac3-9503-c8b27beb7064")
 	)
 	(wire
 		(pts
@@ -9257,6 +9274,16 @@
 			(type default)
 		)
 		(uuid "40daf6d5-b843-41e4-86cd-e02a98b38971")
+	)
+	(wire
+		(pts
+			(xy 186.69 123.19) (xy 186.69 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41d75e48-1784-4bbd-bb7b-1ec7e0ec661d")
 	)
 	(wire
 		(pts
@@ -10107,6 +10134,16 @@
 			(type default)
 		)
 		(uuid "85dbd12c-d4f5-4ddb-80c4-4b1cd0dbd1a0")
+	)
+	(wire
+		(pts
+			(xy 186.69 91.44) (xy 186.69 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87f1ade9-03ce-4303-bb16-c30456ff4432")
 	)
 	(wire
 		(pts
@@ -13249,6 +13286,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 186.69 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0652b327-a055-4739-a8e5-ef68c8727dee")
+		(property "Reference" "#PWR077"
+			(at 186.69 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.69 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 186.69 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f29317d2-0b37-4e77-8a89-5eea6b9320c0")
+		)
+		(instances
+			(project "IFboard"
+				(path "/5819cdb4-45b5-43a2-a4e4-9ec02e71e355"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Franz:SMM4FXXXA")
 		(at 40.64 24.13 180)
 		(unit 1)
@@ -15045,6 +15159,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 186.69 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "33d187a9-25cb-4a57-81cd-f7cebee9b20c")
+		(property "Reference" "#PWR078"
+			(at 186.69 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.69 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 186.69 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9c0f10ca-2671-4393-9cd4-acc518ae1238")
+		)
+		(instances
+			(project "IFboard"
+				(path "/5819cdb4-45b5-43a2-a4e4-9ec02e71e355"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 345.44 227.33 180)
 		(unit 1)
@@ -15299,6 +15490,83 @@
 			(project "IFboard"
 				(path "/5819cdb4-45b5-43a2-a4e4-9ec02e71e355"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 186.69 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "395d3759-604b-4da5-a7b9-52a05b31baac")
+		(property "Reference" "#PWR080"
+			(at 186.69 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.69 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 186.69 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "83c9124e-d228-44c0-8c7b-a6dbb95d198d")
+		)
+		(instances
+			(project "IFboard"
+				(path "/5819cdb4-45b5-43a2-a4e4-9ec02e71e355"
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -17027,6 +17295,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 186.69 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5978c902-5989-494d-8b12-063a06e5c25d")
+		(property "Reference" "#PWR079"
+			(at 186.69 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.69 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 186.69 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2e79f38c-da0f-4298-863d-c4f3294b0b90")
+		)
+		(instances
+			(project "IFboard"
+				(path "/5819cdb4-45b5-43a2-a4e4-9ec02e71e355"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
 		(at 356.87 59.69 0)
 		(mirror x)
@@ -17081,7 +17426,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
+		(property "Description" "MC 0,5/ 3-G-2,5"
 			(at 356.87 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -17779,7 +18124,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:XC6206PxxxMR")
+		(lib_id "PZ:XC6206P332MR-G")
 		(at 123.19 45.72 0)
 		(unit 1)
 		(body_style 1)
@@ -17800,7 +18145,7 @@
 				)
 			)
 		)
-		(property "Value" "XC6206PxxxMR"
+		(property "Value" "XC6206P332MR-G"
 			(at 123.19 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19426,8 +19771,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x01_MountingPin")
-		(at 186.69 113.03 0)
+		(lib_id "PZ:IcoTec_36650.2")
+		(at 186.69 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19438,7 +19783,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a690a05-80d5-4709-a49c-6807163f98ab")
 		(property "Reference" "J10"
-			(at 189.23 112.1155 0)
+			(at 189.23 118.4655 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19448,8 +19793,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x01_MountingPin"
-			(at 189.23 114.6555 0)
+		(property "Value" "IcoTec_36650.2"
+			(at 189.23 119.7355 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19460,8 +19805,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
-			(at 186.69 113.03 0)
+		(property "Footprint" "PZ:icotek 36650.2 PCB-4-V-6,8SKL 3-6"
+			(at 186.69 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19471,8 +19816,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 186.69 113.03 0)
+		(property "Datasheet" "https://www.icotek.com/Produkte/PG08%20EMV%20Abschirmung/EMV%20Schirmklammern%20f%C3%BCr%20Leiterplatten/PCB-SKL/Datenbl%C3%A4tter/36650.2_PCB-4-V-6%2C8_SKL-3-6.PDF"
+			(at 186.69 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19482,8 +19827,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 186.69 113.03 0)
+		(property "Description" "EMC Shield Clamps with Soldering Foot, PCB-4-V-6,8/SKL 3-6"
+			(at 186.69 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19494,7 +19839,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 186.69 113.03 0)
+			(at 186.69 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19503,9 +19848,6 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "MP"
-			(uuid "2db77bc2-8eb2-4606-a198-0f85f7a555a8")
 		)
 		(pin "1"
 			(uuid "934f16cf-a6c2-42a9-a5fd-8cd74c0685f6")
@@ -23852,8 +24194,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x01_MountingPin")
-		(at 186.69 92.71 0)
+		(lib_id "PZ:IcoTec_36650.2")
+		(at 186.69 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23864,7 +24206,7 @@
 		(fields_autoplaced yes)
 		(uuid "b8ab993a-23ad-4ded-8c46-70a708eb874e")
 		(property "Reference" "J8"
-			(at 189.23 91.7955 0)
+			(at 189.23 86.7155 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23874,8 +24216,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x01_MountingPin"
-			(at 189.23 94.3355 0)
+		(property "Value" "IcoTec_36650.2"
+			(at 189.23 87.9855 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23886,8 +24228,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
-			(at 186.69 92.71 0)
+		(property "Footprint" "PZ:icotek 36650.2 PCB-4-V-6,8SKL 3-6"
+			(at 186.69 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23897,8 +24239,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 186.69 92.71 0)
+		(property "Datasheet" "https://www.icotek.com/Produkte/PG08%20EMV%20Abschirmung/EMV%20Schirmklammern%20f%C3%BCr%20Leiterplatten/PCB-SKL/Datenbl%C3%A4tter/36650.2_PCB-4-V-6%2C8_SKL-3-6.PDF"
+			(at 186.69 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23908,8 +24250,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 186.69 92.71 0)
+		(property "Description" "EMC Shield Clamps with Soldering Foot, PCB-4-V-6,8/SKL 3-6"
+			(at 186.69 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23920,7 +24262,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 186.69 92.71 0)
+			(at 186.69 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23929,9 +24271,6 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "MP"
-			(uuid "fb04e040-8aa8-4b42-8cfc-564d43c06b6f")
 		)
 		(pin "1"
 			(uuid "5b96a109-265a-402c-96b8-1030770446dc")
@@ -25310,8 +25649,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x01_MountingPin")
-		(at 186.69 81.28 0)
+		(lib_id "PZ:IcoTec_36650.2")
+		(at 186.69 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25322,7 +25661,7 @@
 		(fields_autoplaced yes)
 		(uuid "ca9dacba-0c68-407c-ac2f-206d9e7a63ac")
 		(property "Reference" "J7"
-			(at 189.23 80.3655 0)
+			(at 189.23 70.2055 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25332,8 +25671,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x01_MountingPin"
-			(at 189.23 82.9055 0)
+		(property "Value" "IcoTec_36650.2"
+			(at 189.23 71.4755 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25344,8 +25683,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
-			(at 186.69 81.28 0)
+		(property "Footprint" "PZ:icotek 36650.2 PCB-4-V-6,8SKL 3-6"
+			(at 186.69 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25355,8 +25694,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 186.69 81.28 0)
+		(property "Datasheet" "https://www.icotek.com/Produkte/PG08%20EMV%20Abschirmung/EMV%20Schirmklammern%20f%C3%BCr%20Leiterplatten/PCB-SKL/Datenbl%C3%A4tter/36650.2_PCB-4-V-6%2C8_SKL-3-6.PDF"
+			(at 186.69 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25366,8 +25705,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 186.69 81.28 0)
+		(property "Description" "EMC Shield Clamps with Soldering Foot, PCB-4-V-6,8/SKL 3-6"
+			(at 186.69 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25378,7 +25717,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 186.69 81.28 0)
+			(at 186.69 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25387,9 +25726,6 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "MP"
-			(uuid "3c3878af-f1be-4b86-9f59-b7bae53db411")
 		)
 		(pin "1"
 			(uuid "b2e1e4cb-49c5-473c-a68b-19b2b057655d")
@@ -26623,7 +26959,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x01_MountingPin")
+		(lib_id "PZ:IcoTec_36650.2")
 		(at 186.69 102.87 0)
 		(unit 1)
 		(body_style 1)
@@ -26635,7 +26971,7 @@
 		(fields_autoplaced yes)
 		(uuid "dbcb6ff3-4f8c-4a55-a5ac-6b714492f90f")
 		(property "Reference" "J9"
-			(at 189.23 101.9555 0)
+			(at 189.23 103.2255 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26645,7 +26981,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x01_MountingPin"
+		(property "Value" "IcoTec_36650.2"
 			(at 189.23 104.4955 0)
 			(hide yes)
 			(show_name no)
@@ -26657,7 +26993,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
+		(property "Footprint" "PZ:icotek 36650.2 PCB-4-V-6,8SKL 3-6"
 			(at 186.69 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -26668,7 +27004,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.icotek.com/Produkte/PG08%20EMV%20Abschirmung/EMV%20Schirmklammern%20f%C3%BCr%20Leiterplatten/PCB-SKL/Datenbl%C3%A4tter/36650.2_PCB-4-V-6%2C8_SKL-3-6.PDF"
 			(at 186.69 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -26679,7 +27015,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "EMC Shield Clamps with Soldering Foot, PCB-4-V-6,8/SKL 3-6"
 			(at 186.69 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -26700,9 +27036,6 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "MP"
-			(uuid "5e770848-f8c3-4540-83fd-ccc6fab22dde")
 		)
 		(pin "1"
 			(uuid "63ddc0ce-680f-4bdf-b1fc-7fc291df6b99")
