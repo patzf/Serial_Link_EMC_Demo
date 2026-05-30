@@ -417,7 +417,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.38 3.92)
@@ -3095,7 +3095,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.38 1.27)
@@ -4760,7 +4760,7 @@
 			)
 		)
 	)
-	(footprint "PZL:TestPoint_Keystone_5019_Miniature"
+	(footprint "PZ:TestPoint_Keystone_5019_Miniature"
 		(layer "F.Cu")
 		(uuid "27f9341b-7bfd-4d28-b888-170c9d584039")
 		(at 91.44 85.330344 90)
@@ -4777,7 +4777,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "TestPoint_Keystone_5019"
 			(at 0 2.25 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4815,12 +4815,12 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C238131"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5ae818a1-6f0d-45e8-b6ff-27c7e6329187")
+			(uuid "a1f432ab-51e7-47cf-8c47-2e6ca577652f")
 			(effects
 				(font
 					(size 1 1)
@@ -6382,7 +6382,7 @@
 			)
 		)
 	)
-	(footprint "PZL:TestPoint_Keystone_5019_Miniature"
+	(footprint "PZ:TestPoint_Keystone_5019_Miniature"
 		(layer "F.Cu")
 		(uuid "3d934ca2-fd25-458d-85c4-55779e6105e9")
 		(at 91.44 55.226 -90)
@@ -6399,7 +6399,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "TestPoint_Keystone_5019"
 			(at 0 2.25 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -6437,12 +6437,12 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C238131"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b985b6d7-828e-4975-982b-1ecae0fcad92")
+			(uuid "d2cd3bb2-8a36-4709-b2ab-635981939786")
 			(effects
 				(font
 					(size 1 1)
@@ -7802,7 +7802,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.38 -1.38)
@@ -9141,7 +9141,7 @@
 			)
 		)
 	)
-	(footprint "PZL:TVS_PESD2CANFD24V-UX"
+	(footprint "PZ:TVS_PESD2CANFD24V-UX"
 		(layer "F.Cu")
 		(uuid "5b5a1c38-b08e-436d-9af1-b141dfc421c4")
 		(at 109.1946 74.8856 180)
@@ -9491,7 +9491,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.38 3.92)
@@ -9821,7 +9821,7 @@
 			)
 		)
 	)
-	(footprint "PZL:TVS_PESD2CANFD24V-UX"
+	(footprint "PZ:TVS_PESD2CANFD24V-UX"
 		(layer "F.Cu")
 		(uuid "68a316bc-6659-4199-a6ed-f0ac65e3e581")
 		(at 108.966 90.532 180)
@@ -10630,7 +10630,7 @@
 			)
 		)
 	)
-	(footprint "PZL:L_Wurth_WE-SL2-74422x"
+	(footprint "PZ:L_Wurth_WE-SL2-74422x"
 		(layer "F.Cu")
 		(uuid "7125c01f-5abb-4e49-9f16-1782c238284c")
 		(at 94.0054 75.0888)
@@ -10891,7 +10891,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C2651122"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11481,7 +11481,7 @@
 			)
 		)
 	)
-	(footprint "PZL:ER_OLEDM0.91_1x-I2C"
+	(footprint "PZ:ER_OLEDM0.91_1x-I2C"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "7ab592c8-7dda-4410-8dc3-e2eed2ecb318")
@@ -11543,7 +11543,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a5b848cd-fb27-4a6a-920f-b14e878cae93")
+			(uuid "d52f1f5c-a016-457f-aa41-0f97dceb4c3d")
 			(effects
 				(font
 					(size 1 1)
@@ -15370,7 +15370,7 @@
 				(pins "C" "A")
 			)
 		)
-		(attr smd exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -3.51 1.65)
@@ -18738,16 +18738,15 @@
 			)
 		)
 	)
-	(footprint "Franz:R_0402_1005Metric_solderjmp_short"
+	(footprint "PZ:R_0402_1005Metric_solderjmp_short"
 		(layer "F.Cu")
 		(uuid "a9100c8c-043d-466e-9363-03d49f053e88")
 		(at 64.527 77.024 -90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "NT2"
-			(at 0 -1.17 90)
+			(at 0 -1.17 270)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "7334755e-313e-4ba0-938c-3972d69d8671")
 			(effects
 				(font
@@ -18757,9 +18756,8 @@
 			)
 		)
 		(property "Value" "NetTie_2"
-			(at 0 1.17 90)
+			(at 0 1.17 270)
 			(layer "F.Fab")
-			(hide yes)
 			(uuid "09018d94-2b92-4358-95df-c2e2aa0e816a")
 			(effects
 				(font
@@ -18804,7 +18802,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_bom dnp)
+		(attr smd exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.5 0)
@@ -18917,7 +18915,7 @@
 			(uuid "ff9dcace-a767-4d8d-929f-b4d5528b4c34")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(uuid "988ab80c-4afb-4a62-9986-27b776a3a687")
 			(effects
@@ -21433,7 +21431,7 @@
 			)
 		)
 	)
-	(footprint "PZL:L_Wurth_WE-SL2-74422x"
+	(footprint "PZ:L_Wurth_WE-SL2-74422x"
 		(layer "F.Cu")
 		(uuid "b6cc1aa9-0fdd-4410-bd93-60528c3f2535")
 		(at 87.503 90.7352)
@@ -21694,7 +21692,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C2651122"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23566,7 +23564,7 @@
 			)
 		)
 	)
-	(footprint "PZL:TestPoint_Keystone_5019_Miniature"
+	(footprint "PZ:TestPoint_Keystone_5019_Miniature"
 		(layer "F.Cu")
 		(uuid "d13574d6-1388-46dd-b642-5fabc13d4b55")
 		(at 91.44 109.424 90)
@@ -23583,7 +23581,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "TestPoint_Keystone_5019"
 			(at 0 2.25 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -23621,12 +23619,12 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C238131"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0346238b-ac8c-40d8-b7a2-9a3dce3a19e7")
+			(uuid "e8722135-2078-4285-817e-1c56d473f45b")
 			(effects
 				(font
 					(size 1 1)

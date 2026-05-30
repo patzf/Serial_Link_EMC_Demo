@@ -761,7 +761,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "LCSC Part #"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -818,7 +818,7 @@
         "uuid": "5819cdb4-45b5-43a2-a4e4-9ec02e71e355"
       }
     ],
-    "used_designators": "D57,#PWR16-20,#PWR51,C2,C5,C18,J11,R4,U1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
