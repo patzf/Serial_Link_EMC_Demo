@@ -508,8 +508,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "PZ"
+    ],
+    "pinned_symbol_libs": [
+      "PZ"
+    ]
   },
   "meta": {
     "filename": "IFboard.kicad_pro",
@@ -818,7 +822,7 @@
         "uuid": "5819cdb4-45b5-43a2-a4e4-9ec02e71e355"
       }
     ],
-    "used_designators": "",
+    "used_designators": "L3,JP5-8",
     "variants": []
   },
   "sheets": [
