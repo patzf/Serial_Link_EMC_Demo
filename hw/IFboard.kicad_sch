@@ -2674,6 +2674,17 @@
 					)
 				)
 			)
+			(property "FT Rotation Offset" "-90"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "EastRising"
 				(at 0 0 0)
 				(show_name no)
@@ -4411,6 +4422,17 @@
 				)
 			)
 			(property "LCSC Part #" "C3585554"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "FT Rotation Offset" "180"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -8793,6 +8815,12 @@
 		(uuid "ff0b105a-16ac-43b0-8a40-5d782ae92be5")
 	)
 	(junction
+		(at 273.05 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01667cd2-62cc-48f4-9563-744449d4ca3a")
+	)
+	(junction
 		(at 270.51 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8803,6 +8831,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ad8574a-5ecf-4a48-b074-2f0d16122f1d")
+	)
+	(junction
+		(at 273.05 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1197c37a-268b-4f33-9e94-3646942e0a70")
 	)
 	(junction
 		(at 280.67 137.16)
@@ -8913,6 +8947,12 @@
 		(uuid "4e5b16b1-4dbe-4361-a5ad-15b072de25a2")
 	)
 	(junction
+		(at 262.89 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51951950-cf69-4e28-a3e6-3018681ec1c9")
+	)
+	(junction
 		(at 259.08 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9007,6 +9047,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b13fc518-f58c-4d84-9eb0-3a22e9c4c575")
+	)
+	(junction
+		(at 262.89 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b365af6f-d3e2-4c35-a2b6-09645d29756b")
 	)
 	(junction
 		(at 280.67 132.08)
@@ -14995,7 +15041,18 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C492401"
+			(at 267.97 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "90"
 			(at 267.97 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -15233,7 +15290,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26648-0402WGF5101TCE/C25905"
 			(at 72.39 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -15738,7 +15795,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8578255895085699072-C21189.pdf?response-content-disposition=attachment%3B%20filename%3DC21189.pdf%3B%20filename%2A%3DUTF-8%27%27C21189.pdf&x-oss-date=20260602T161630Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5rjDt7gq6kU1rWcbED2pW0Mb%2FhtiZXltjz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qdhiiS5B4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWirhVukJgnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkIQgAgPqKWD5sagAGvfLgNGHh6egB2ke3iYbSq4dlvuraVAyuDYwbGy05E2fmU2l%2FHoZLsguUvvmk5WH9g2j%2BKrrwOaxM6aB5bYqHgjc%2B1SHw%2FcuqtYou9VfMRYZliofadsXKBO6zNgWJo0kFP7O8w5D20%2F3edMdU48KXxAGUwEdWq5%2F3bywy0lMTG%2FCAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NYVEdTFv5awwnfGAmYcwAfPNT%2F20260602%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=4739bb15c20106207e0249bb051ac4e1a5d57898f1a54dc7bbc7c65b99def368"
 			(at 175.26 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -15943,7 +16000,18 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C492401"
+			(at 275.59 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "90"
 			(at 275.59 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -16442,7 +16510,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "55af98f2-21dd-48e1-92c2-77b3e4fcddbe")
 		(property "Reference" "L1"
 			(at 275.336 138.176 0)
@@ -16791,8 +16859,19 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C492401"
 			(at 300.99 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "90"
+			(at 300.99 45.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17077,6 +17156,17 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 355.6 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "87cd3846-ffe0-4e50-810a-c00763aaf0fc")
 		)
@@ -17161,7 +17251,18 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C492401"
+			(at 275.59 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "90"
 			(at 275.59 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -17331,6 +17432,17 @@
 			)
 		)
 		(property "LCSC Part #" "C3585554"
+			(at 363.22 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "180"
 			(at 363.22 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -18187,6 +18299,17 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 203.2 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "e34c49f4-588e-4415-8209-781e20795eff")
 		)
@@ -18272,7 +18395,18 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C492401"
+			(at 308.61 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "90"
 			(at 308.61 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -18854,7 +18988,18 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C492401"
+			(at 309.88 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "90"
 			(at 309.88 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -18875,6 +19020,130 @@
 			(project "IFboard"
 				(path "/5819cdb4-45b5-43a2-a4e4-9ec02e71e355"
 					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PZ:744235101")
+		(at 267.97 60.96 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "70d7a454-ec23-43bd-be65-7a968eb900e8")
+		(property "Reference" "L4"
+			(at 267.716 64.516 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100 uH"
+			(at 280.67 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PZ:L_Wurth_WE-CNSW-1812"
+			(at 280.67 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/744235101.pdf"
+			(at 280.67 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "SMT Common Mode Line Filter for CAN FD"
+			(at 267.97 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Würth"
+			(at 280.67 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC Part #" "C2662370"
+			(at 267.97 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "90"
+			(at 267.97 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "91c7f71b-31f0-4787-aa30-4f2f50351a7e")
+		)
+		(pin "1"
+			(uuid "71739ee7-cc55-4fde-932b-750ac7f9a803")
+		)
+		(pin "2"
+			(uuid "f53c6035-5b14-46d4-8781-8fb6d7478d83")
+		)
+		(pin "4"
+			(uuid "29f9dc8a-f9de-4ac0-930b-d428f058ea78")
+		)
+		(instances
+			(project "IFboard"
+				(path "/5819cdb4-45b5-43a2-a4e4-9ec02e71e355"
+					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -19503,7 +19772,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7a690a05-80d5-4709-a49c-6807163f98ab")
 		(property "Reference" "J10"
@@ -20765,7 +21034,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8578255895085699072-C21189.pdf?response-content-disposition=attachment%3B%20filename%3DC21189.pdf%3B%20filename%2A%3DUTF-8%27%27C21189.pdf&x-oss-date=20260602T161630Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5rjDt7gq6kU1rWcbED2pW0Mb%2FhtiZXltjz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qdhiiS5B4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWirhVukJgnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkIQgAgPqKWD5sagAGvfLgNGHh6egB2ke3iYbSq4dlvuraVAyuDYwbGy05E2fmU2l%2FHoZLsguUvvmk5WH9g2j%2BKrrwOaxM6aB5bYqHgjc%2B1SHw%2FcuqtYou9VfMRYZliofadsXKBO6zNgWJo0kFP7O8w5D20%2F3edMdU48KXxAGUwEdWq5%2F3bywy0lMTG%2FCAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NYVEdTFv5awwnfGAmYcwAfPNT%2F20260602%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=4739bb15c20106207e0249bb051ac4e1a5d57898f1a54dc7bbc7c65b99def368"
 			(at 172.72 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -21377,6 +21646,17 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "-90"
+			(at 129.54 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "a3a63d36-53e0-4aef-b7b4-12d2b8ecb84c")
 		)
@@ -21723,7 +22003,18 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C492401"
+			(at 267.97 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "90"
 			(at 267.97 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -22331,7 +22622,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8578255895085699072-C21189.pdf?response-content-disposition=attachment%3B%20filename%3DC21189.pdf%3B%20filename%2A%3DUTF-8%27%27C21189.pdf&x-oss-date=20260602T161630Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5rjDt7gq6kU1rWcbED2pW0Mb%2FhtiZXltjz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qdhiiS5B4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWirhVukJgnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkIQgAgPqKWD5sagAGvfLgNGHh6egB2ke3iYbSq4dlvuraVAyuDYwbGy05E2fmU2l%2FHoZLsguUvvmk5WH9g2j%2BKrrwOaxM6aB5bYqHgjc%2B1SHw%2FcuqtYou9VfMRYZliofadsXKBO6zNgWJo0kFP7O8w5D20%2F3edMdU48KXxAGUwEdWq5%2F3bywy0lMTG%2FCAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NYVEdTFv5awwnfGAmYcwAfPNT%2F20260602%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=4739bb15c20106207e0249bb051ac4e1a5d57898f1a54dc7bbc7c65b99def368"
 			(at 172.72 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -22423,7 +22714,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26648-0402WGF5101TCE/C25905"
 			(at 104.14 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -23564,7 +23855,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26648-0402WGF5101TCE/C25905"
 			(at 113.03 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -23790,7 +24081,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b8ab993a-23ad-4ded-8c46-70a708eb874e")
 		(property "Reference" "J8"
@@ -25245,7 +25536,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ca9dacba-0c68-407c-ac2f-206d9e7a63ac")
 		(property "Reference" "J7"
@@ -25923,8 +26214,19 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C492401"
 			(at 302.26 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "90"
+			(at 302.26 125.73 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26238,7 +26540,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26648-0402WGF5101TCE/C25905"
 			(at 67.31 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -26465,7 +26767,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "dbcb6ff3-4f8c-4a55-a5ac-6b714492f90f")
 		(property "Reference" "J9"
@@ -27262,6 +27564,17 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 358.14 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "c5da07b2-b2a1-4ae4-af68-4fe0a01a5319")
 		)
@@ -27506,7 +27819,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8578255895085699072-C21189.pdf?response-content-disposition=attachment%3B%20filename%3DC21189.pdf%3B%20filename%2A%3DUTF-8%27%27C21189.pdf&x-oss-date=20260602T161630Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5rjDt7gq6kU1rWcbED2pW0Mb%2FhtiZXltjz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qdhiiS5B4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWirhVukJgnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkIQgAgPqKWD5sagAGvfLgNGHh6egB2ke3iYbSq4dlvuraVAyuDYwbGy05E2fmU2l%2FHoZLsguUvvmk5WH9g2j%2BKrrwOaxM6aB5bYqHgjc%2B1SHw%2FcuqtYou9VfMRYZliofadsXKBO6zNgWJo0kFP7O8w5D20%2F3edMdU48KXxAGUwEdWq5%2F3bywy0lMTG%2FCAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NYVEdTFv5awwnfGAmYcwAfPNT%2F20260602%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=4739bb15c20106207e0249bb051ac4e1a5d57898f1a54dc7bbc7c65b99def368"
 			(at 175.26 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -27732,7 +28045,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "f2542b57-835e-448c-a9ae-f5608d545cec")
 		(property "Reference" "L3"
 			(at 275.336 131.064 0)
@@ -27804,6 +28117,17 @@
 			)
 		)
 		(property "LCSC Part #" "C2662370"
+			(at 275.59 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "90"
 			(at 275.59 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -28179,10 +28503,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f879a71a-3c63-4a56-96f9-caf91ddbc3b1")
 		(property "Reference" "NT2"
@@ -28228,6 +28552,17 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
+			(at 163.83 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 163.83 215.9 0)
 			(hide yes)
 			(show_name no)

@@ -616,6 +616,12 @@
           "show": true
         },
         {
+          "group_by": false,
+          "label": "FT Rotation Offset",
+          "name": "FT Rotation Offset",
+          "show": true
+        },
+        {
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
@@ -765,7 +771,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "LCSC Part #"
+      "sort_field": "FT Rotation Offset"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -822,7 +828,7 @@
         "uuid": "5819cdb4-45b5-43a2-a4e4-9ec02e71e355"
       }
     ],
-    "used_designators": "L3,JP5-8",
+    "used_designators": "L3-4,JP5-8",
     "variants": []
   },
   "sheets": [
