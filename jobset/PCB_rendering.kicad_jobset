@@ -53,6 +53,56 @@
         "zoom": 1.0
       },
       "type": "pcb_render"
+    },
+    {
+      "description": "",
+      "id": "915eecc9-0041-48e6-84f5-887bfadfa5b1",
+      "settings": {
+        "board_only": false,
+        "board_outlines_chaining_epsilon": 0.01,
+        "cut_vias_in_body": false,
+        "description": "",
+        "export_board_body": true,
+        "export_components": true,
+        "export_inner_copper": false,
+        "export_pads": true,
+        "export_silkscreen": true,
+        "export_soldermask": false,
+        "export_tracks": true,
+        "export_zones": true,
+        "fill_all_vias": false,
+        "format": "step",
+        "fuse_shapes": false,
+        "include_dnp": false,
+        "include_unspecified": true,
+        "occt_format": 0,
+        "optimize_step": true,
+        "output_filename": "",
+        "overwrite": true,
+        "subst_models": true,
+        "use_defined_origin": false,
+        "use_drill_origin": false,
+        "use_grid_origin": false,
+        "use_pcb_center_origin": true,
+        "user_origin.x": 105.927,
+        "user_origin.y": 82.876942,
+        "variant": "",
+        "vrml_model_dir": "",
+        "vrml_relative_paths": false
+      },
+      "type": "pcb_export_3d"
+    },
+    {
+      "description": "Create ibom",
+      "id": "5277d385-fe41-46a8-a085-58ee240f2876",
+      "settings": {
+        "command": "python \"${KICAD10_3RD_PARTY}plugins\\org_openscopeproject_InteractiveHtmlBom\\generate_interactive_bom.py\" --dest-dir \"Design-Outputs\\ibom\" --name-format \"%f_ibom\" --no-browser --extra-fields \"MPN,Manufacturer\" --dnp-field \"kicad_dnp\" \"${KIPRJMOD}\\IFboard.kicad_pcb\"",
+        "description": "",
+        "ignore_exit_code": false,
+        "output_filename": "5277d385-fe41-46a8-a085-58ee240f2876.log",
+        "record_output": true
+      },
+      "type": "special_execute"
     }
   ],
   "meta": {
@@ -62,9 +112,33 @@
     {
       "description": "",
       "id": "c9655d04-05b2-4d61-b2b7-0acaf4ab39f2",
-      "only": [],
+      "only": [
+        "58d1198b-7658-4ae9-89d1-b81ae2c6167a"
+      ],
       "settings": {
         "output_path": "./pcb_rendering"
+      },
+      "type": "folder"
+    },
+    {
+      "description": "pcb_rendering",
+      "id": "3f9be79d-bcd6-4dff-a8ce-52bae19f46b5",
+      "only": [
+        "915eecc9-0041-48e6-84f5-887bfadfa5b1"
+      ],
+      "settings": {
+        "output_path": "./Design-Outputs/3DModel"
+      },
+      "type": "folder"
+    },
+    {
+      "description": "ibom",
+      "id": "502bdc8a-4bac-453c-a416-18e348351d7b",
+      "only": [
+        "5277d385-fe41-46a8-a085-58ee240f2876"
+      ],
+      "settings": {
+        "output_path": "./Design-Outputs"
       },
       "type": "folder"
     }
