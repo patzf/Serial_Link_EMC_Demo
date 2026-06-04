@@ -103,6 +103,102 @@
         "record_output": true
       },
       "type": "special_execute"
+    },
+    {
+      "description": "Export PDF PCB",
+      "id": "48fca5a6-18f3-4eff-8fd8-da0d8d2d6f35",
+      "settings": {
+        "back_fp_property_popups": true,
+        "background_color": "rgba(0, 0, 0, 0.000)",
+        "black_and_white": false,
+        "check_zones": false,
+        "color_theme": "",
+        "crossout_dnp_footprints_on_fab_layers": true,
+        "description": "",
+        "drawing_sheet": "",
+        "drill_shape": "full",
+        "front_fp_property_popups": true,
+        "hide_dnp_footprints_on_fab_layers": false,
+        "layers": [
+          "B.SilkS",
+          "In30.Cu",
+          "In29.Cu",
+          "In28.Cu",
+          "In27.Cu",
+          "In26.Cu",
+          "In25.Cu",
+          "In24.Cu",
+          "In23.Cu",
+          "In22.Cu",
+          "In21.Cu",
+          "In20.Cu",
+          "In19.Cu",
+          "In18.Cu",
+          "In17.Cu",
+          "In16.Cu",
+          "In15.Cu",
+          "In14.Cu",
+          "In13.Cu",
+          "In12.Cu",
+          "In11.Cu",
+          "In10.Cu",
+          "In9.Cu",
+          "In8.Cu",
+          "In7.Cu",
+          "In6.Cu",
+          "In5.Cu",
+          "In4.Cu",
+          "In3.Cu",
+          "In2.Cu",
+          "In1.Cu",
+          "F.SilkS",
+          "F.Fab"
+        ],
+        "layers_to_include_on_all_layers": [
+          "Edge.Cuts"
+        ],
+        "mirror": false,
+        "negative": false,
+        "output_filename": "",
+        "pdf_gen_mode": "one-page-per-layer-one-file",
+        "pdf_metadata": true,
+        "plot_drawing_sheet": false,
+        "plot_footprint_values": true,
+        "plot_pad_numbers": false,
+        "plot_ref_des": true,
+        "scale": 0.0,
+        "single_document": true,
+        "sketch_dnp_footprints_on_fab_layers": true,
+        "sketch_pads_on_fab_layers": false,
+        "subtract_solder_mask_from_silk": false,
+        "use_drill_origin": false,
+        "variant": ""
+      },
+      "type": "pcb_export_pdf"
+    },
+    {
+      "description": "Export PDF SCH",
+      "id": "04f48d0d-3171-4c10-8554-0606f231b225",
+      "settings": {
+        "black_and_white": false,
+        "color_theme": "KiCad Classic",
+        "description": "",
+        "drawing_sheet": "",
+        "format": "pdf",
+        "min_pen_width": 847,
+        "output_filename": "IFboard.pdf",
+        "page_size": "auto",
+        "pdf_hierarchical_links": true,
+        "pdf_metadata": true,
+        "pdf_property_popups": true,
+        "plot_all": true,
+        "plot_drawing_sheet": true,
+        "show_hop_over": false,
+        "use_background_color": true,
+        "variant_name": "",
+        "variant_names": []
+      },
+      "type": "sch_export_plot_pdf"
     }
   ],
   "meta": {
@@ -116,7 +212,7 @@
         "58d1198b-7658-4ae9-89d1-b81ae2c6167a"
       ],
       "settings": {
-        "output_path": "./pcb_rendering"
+        "output_path": "./Design-Outputs/pcb_rendering"
       },
       "type": "folder"
     },
@@ -136,6 +232,18 @@
       "id": "502bdc8a-4bac-453c-a416-18e348351d7b",
       "only": [
         "5277d385-fe41-46a8-a085-58ee240f2876"
+      ],
+      "settings": {
+        "output_path": "./Design-Outputs"
+      },
+      "type": "folder"
+    },
+    {
+      "description": "schematic pdf",
+      "id": "1e457a3b-155a-4299-8c5d-c83b7c1ae989",
+      "only": [
+        "48fca5a6-18f3-4eff-8fd8-da0d8d2d6f35",
+        "04f48d0d-3171-4c10-8554-0606f231b225"
       ],
       "settings": {
         "output_path": "./Design-Outputs"

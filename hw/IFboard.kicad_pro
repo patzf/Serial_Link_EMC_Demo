@@ -764,6 +764,18 @@
           "label": "L (uH)",
           "name": "L (uH)",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -828,7 +840,7 @@
         "uuid": "5819cdb4-45b5-43a2-a4e4-9ec02e71e355"
       }
     ],
-    "used_designators": "L3-4,JP5-8",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
