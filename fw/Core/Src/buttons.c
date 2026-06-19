@@ -10,8 +10,8 @@
 #include <buttons.h>
 
 volatile uint8_t role = TRANSMIT;
-volatile uint8_t sendMode = SINGLE_SEND_MODE;
-volatile uint8_t currInterface = UART_RS232_INTERFACE;
+volatile uint8_t sendMode = CONTINUOUS_SEND_MODE;
+volatile uint8_t currInterface = UART_3V3_INTERFACE;
 volatile uint8_t running = 0;
 volatile uint8_t resetRNG = 0;
 

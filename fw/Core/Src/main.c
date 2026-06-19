@@ -54,7 +54,7 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-
+uint32_t tx_byte_cnt = 0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -124,32 +124,49 @@ int main(void)
 
   ssd1306_Fill(Black);
   ssd1306_SetCursor(0, 0);
-  ssd1306_WriteString("Leo the goat!", Font_7x10, White);
+  ssd1306_WriteString("Interface: UART", Font_7x10, White);
+  ssd1306_SetCursor(0, 11);
+  ssd1306_WriteString("Mode: TX", Font_7x10, White);
+  ssd1306_SetCursor(0, 22);
+  ssd1306_WriteString("Byte Count: ", Font_7x10, White);
   ssd1306_UpdateScreen();
+
+
+  char buffer[6];
+
 
   while (1)
   {
-//	  if (resetRNG) {
-//		  transmitSeed = 0;
-//		  receiveSeed = 0;
-//		  resetRNG = 0;
-//	  }
-//
-//	  if ((role == TRANSMIT || role == RECEIVE_TRANSMIT) && running) {
-//		  uint8_t data = STANDARD_DATA;
-//		  if (sendMode == CONTINUOUS_SEND_MODE)
-//			  data = rand(&transmitSeed) % 256;
-//		  transmit(data);
-//	  }
-//
-//	  if (role == RECEIVE || role == RECEIVE_TRANSMIT) {
-//		  uint8_t data = 0;
-//		  if (receive(&data) == HAL_OK) {
-//			  uint8_t expected = STANDARD_DATA;
-//			  if (sendMode == CONTINUOUS_SEND_MODE)
-//				  expected = rand(&receiveSeed) % 256;
-//			  receiveErrors += countSetBits(expected ^ data);
-//		  }
+	  if (resetRNG) {
+		  transmitSeed = 0;
+		  receiveSeed = 0;
+		  resetRNG = 0;
+	  }
+
+	  if ((role == TRANSMIT || role == RECEIVE_TRANSMIT) && running) {
+		  uint8_t data = STANDARD_DATA;
+		  if (sendMode == CONTINUOUS_SEND_MODE)
+			  data = rand(&transmitSeed) % 256;
+		  transmit(data);
+		  tx_byte_cnt++;
+
+
+		  //put to function
+		  ssd1306_SetCursor(100, 22); // 20 ok
+		  snprintf(buffer, sizeof(buffer), "%d", tx_byte_cnt);
+		  ssd1306_WriteString(buffer, Font_7x10, White);
+		  ssd1306_UpdateScreen();
+	  }
+
+	  if (role == RECEIVE || role == RECEIVE_TRANSMIT) {
+		  uint8_t data = 0;
+		  if (receive(&data) == HAL_OK) {
+			  uint8_t expected = STANDARD_DATA;
+			  if (sendMode == CONTINUOUS_SEND_MODE)
+				  expected = rand(&receiveSeed) % 256;
+			  receiveErrors += countSetBits(expected ^ data);
+		  }
+	  }
   }
 
 
